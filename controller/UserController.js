@@ -1,7 +1,7 @@
 const UserModel = require('../models/User')
 const cloudinary = require('cloudinary');
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken')
+const jwt =require('jsonwebtoken')
 
 cloudinary.config({
     cloud_name: 'durbsc1w3',
